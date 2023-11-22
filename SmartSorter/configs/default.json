@@ -7,6 +7,23 @@
         "png": "Images",
         "pdf": "Documents",
         "docx": "Documents",
-        "txt": "Text Files"
+        "txt": "Text Files",
+        "mp3": "Audio",
+        "mp4": "Videos",
+        "xlsx": "Spreadsheets",
+        "pptx": "Presentations",
+        "zip": "Archives",
+        "exe": "Executables",
+        "html": "Web",
+        "css": "Web",
+        "js": "Web",
+        "java": "Code",
+        "py": "Code",
+        "cpp": "Code",
+        "c": "Code",
+        "h": "Code",
+        "json": "Code",
+        "xml": "Code",
+        "sql": "Databases"
     }
 }
