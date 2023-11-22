@@ -11,10 +11,24 @@ def categorize_files(files, rules):
     """
     categorized = {}
     for file in files:
-        extension = file.split('.')[-1]
-        if extension in rules:
-            category = rules[extension]
-            if category not in categorized:
-                categorized[category] = []
-            categorized[category].append(file)
+        directory, filename = os.path.split(file)
+        folders = directory.split(os.sep)
+        extension = filename.split('.')[-1]
+
+        # Check for folder-based rules
+        for folder in folders:
+            if folder in rules:
+                category = rules[folder]
+                break
+        else:
+            # If no folder-based rule is found, use extension-based rule
+            if extension in rules:
+                category = rules[extension]
+            else:
+                continue
+
+        if category not in categorized:
+            categorized[category] = []
+        categorized[category].append(file)
+
     return categorized
