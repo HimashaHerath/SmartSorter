@@ -1,0 +1,12 @@
+{
+    "scan_directory": "/path/to/your/source/folder",
+    "destination_directory": "/path/to/your/destination/folder",
+    "rules": {
+        "jpg": "Images",
+        "jpeg": "Images",
+        "png": "Images",
+        "pdf": "Documents",
+        "docx": "Documents",
+        "txt": "Text Files"
+    }
+}
