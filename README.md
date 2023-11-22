@@ -1,1 +1,2 @@
 # SmartSorter
+SmartSorter is a highly customizable and user-friendly file organizing tool. It automates the process of sorting and organizing files in your computer's directories based on flexible criteria defined by the user. This Python-based tool uses external configuration files, allowing users to easily modify sorting rules and behaviors without delving into the code. SmartSorter is ideal for managing large collections of files, automating routine file organization, and maintaining a clutter-free digital workspace.
